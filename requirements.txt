@@ -1,0 +1,7 @@
+pandas
+numpy
+scipy
+scikit-learn
+spacy
+beautifulsoup4
+lxml

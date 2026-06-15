@@ -1,0 +1,6 @@
+Title,Abstract,Author Keywords,Index Keywords,Year,Authors,DOI
+Deep Learning for Singing Voice Source Separation,<p>We present a U-Net model for <b>source separation</b> of singing voice from polyphonic music using spectrogram inputs. See http://example.com</p>,source separation; singing voice,music information retrieval,2021,"Smith, J.",10.1/abc
+Automatic Music Transcription with Transformers,"A transformer for automatic music transcription of instrumental performance, predicting MIDI notes from audio.",transcription; midi,onset; instrumental,2023,"Lee, K.",10.1/def
+Brain Tumor Segmentation in MRI using CNNs,A CNN for segmenting brain tumor regions in MRI scans of patients for clinical diagnosis.,MRI; tumor,clinical,2022,"Wang, L.",10.1/jkl
+Genre Classification from Audio Features,Music genre classification using acoustic features on a large audio dataset.,genre; audio,music,2019,"Cruz, R.",10.1/mno
+,,,,2018,,
