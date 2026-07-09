@@ -81,7 +81,14 @@ INCLUDE_KEYWORDS: list[str] = [
     "performance",
 ]
 
-EXCLUDE_KEYWORDS: list[str] = [
+# Phase 2 (Rayyan) already screened the corpus meticulously - human decisions
+# take precedence, so the exclude filter is now EMPTY by default and Phase 3 is
+# pure text mining/preprocessing. (Verified on the final 365-paper dataset:
+# the old list wrongly dropped 6 Rayyan-included papers on incidental terms.)
+# To reactivate for a raw, unscreened dump, restore terms from git history.
+EXCLUDE_KEYWORDS: list[str] = []
+
+_UNUSED_LEGACY_EXCLUDE = [
     # medical / biomedical imaging & health (the "MRI eme eme" papers)
     "mri", "magnetic resonance imaging", "fmri", "ct scan", "x-ray", "tumor",
     "cancer", "clinical", "patient", "disease", "diagnosis", "diagnostic",
